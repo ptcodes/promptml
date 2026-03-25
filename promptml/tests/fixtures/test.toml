@@ -1,0 +1,7 @@
+[template]
+name = "test"
+version = "1.0"
+
+[messages]
+system = "You are a helpful assistant."
+user = "Tell me about {topic} in a {tone} tone."
