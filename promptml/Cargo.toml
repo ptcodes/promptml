@@ -16,7 +16,7 @@ exclude       = ["tests/compile_fail/*", ".github/*"]
 thiserror = "1"
 serde = { version = "1", features = ["derive"] }
 toml = "0.8"
-promptml-macros = { path = "../promptml-macros" }
+promptml-macros = { path = "../promptml-macros", version = "0.1.0" }
 
 [dev-dependencies]
 pretty_assertions = "1"
